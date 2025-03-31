@@ -12,7 +12,7 @@ export default function App() {
 
     const colors = getColors();
 
-    // Do not display card urls contains 'presentation=true'
+    // Do not display card when url contains 'presentation=true'
     if (window.location.search.includes('presentation=true')) {
         return <div id='app' className='surface'>
             <FlowField config={config} />
