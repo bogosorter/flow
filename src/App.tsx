@@ -16,8 +16,8 @@ export default function App() {
         <FlowField config={config} />
         <div id='card' style={{backgroundColor: colors.backgroundTransparent}}>
             <h1>FlowFields</h1>
-            <p><a className='primary-link' href='https://m7kra.github.io'>M7kra</a>'s hidden talent for art (and plagiarism)</p>
-            <a className='on-surface-link' href='https://github.com/m7kra/flow'><Github size={32} /></a>
+            <p><a className='primary-link' href='https://bogosorter.github.io'>bogosorter</a>'s hidden talent for art (and plagiarism)</p>
+            <a className='on-surface-link' href='https://github.com/bogosorter/flow'><Github size={32} /></a>
         </div>
     </div>
 }
