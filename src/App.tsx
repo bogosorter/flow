@@ -12,6 +12,13 @@ export default function App() {
 
     const colors = getColors();
 
+    // Do not display card urls contains 'presentation=true'
+    if (window.location.search.includes('presentation=true')) {
+        return <div id='app' className='surface'>
+            <FlowField config={config} />
+        </div>
+    }
+
     return <div id='app' className='surface'>
         <FlowField config={config} />
         <div id='card' style={{backgroundColor: colors.backgroundTransparent}}>
